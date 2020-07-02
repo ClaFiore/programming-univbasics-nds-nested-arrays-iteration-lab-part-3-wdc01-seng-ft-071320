@@ -5,7 +5,7 @@ def join_nested_strings(src)
       inner_count = 0
       while inner_count < src[count].length do
         if src[count][inner_count].is_a?(string)
-          final_array << src[count][inner_count]
+          strings_array << src[count][inner_count]
         end
         inner_count += 1
       end
